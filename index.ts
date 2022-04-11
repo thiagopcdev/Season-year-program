@@ -52,4 +52,4 @@ Object.entries(chosenHemisphereSeasons).map((entry) => {
   const months = entry[1];
 
   if(months.includes(month)) console.log(season);
-})
+});
